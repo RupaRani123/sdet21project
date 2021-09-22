@@ -1,24 +1,24 @@
-package Com.ComCast;
+package Com.ComOrg;
 
 import org.testng.annotations.Test;
 
-public class ContactTest {
+public class OrgTest {
 	@Test(groups ="SmokeTest")
 	
- public void createContactTest()
+ public void createOrgTest()
  {
 	System.out.println("execute createContactTest");
 	
 			 
  }
 @Test(groups ="RegressionTest")
-public void createContactWithOrgTest() {
+public void createOrgWithLesdTest() {
 	System.out.println("execute createContactWithOrgTest");
 	
-	}
+}
 @Test(groups ="RegressionTest")
 
-public void deleteContactTest()
+public void deleteOrgTest()
 {
 System.out.println("execute deleteContactTest");
 
