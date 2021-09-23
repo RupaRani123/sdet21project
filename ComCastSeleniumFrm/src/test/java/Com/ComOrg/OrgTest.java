@@ -23,5 +23,12 @@ public void deleteOrgTest()
 System.out.println("execute deleteContactTest");
 
 }
+@Test(groups ="RegressionTest")
+
+public void SearchdeleteOrgTest()
+{
+System.out.println("execute SearchdeleteContactTest");
+
+}
  
 }
